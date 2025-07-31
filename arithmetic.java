@@ -6,7 +6,7 @@ public class arithmetic{
 
     Scanner sc=new Scanner(System.in);
 
-    int a,b,sum,mul,div,sub;
+    int a,b, sum , mul ,div,sub;
 
     System.out.print("Enter the number 1:");
     a=sc.nextInt();
