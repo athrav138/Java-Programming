@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 class Employee
 {
-    int empId;
-    float sal;
-    String name;
-    
+   private int empId;
+   private float sal;
+    private String name;
+
         Employee(Scanner sc)
     {
         System.out.print("ENter employee id: ");
