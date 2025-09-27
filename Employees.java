@@ -42,13 +42,37 @@ class Emp_halfTime extends Employee
   }
 }
 
+class Full_time extends Employee
+{
+    String role;
+    Full_time(Scanner sc)
+    {
+          super(sc);
+        System.out.print("Enter role: ");
+        role = sc.next();
+    }
+    
+    public void display()
+    {
+        super.display();
+        System.out.println("Role: "+role);
+    }
+}
+
 public class Employees
 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         
+        System.out.println("Enter details of half time employee:");
        Emp_halfTime emp = new Emp_halfTime(sc);
+        System.out.println("******Details of half time employee:*****");
         emp.display();
+
+        System.out.println("\n\nEnter details of full time employee:");
+       Full_time emp1 = new Full_time(sc);
+       System.out.println("******Details of full time employee:******");
+       emp1.display();
     }
 }
