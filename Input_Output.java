@@ -53,6 +53,10 @@ public class Input_Output
       System.out.print(" "+arr[i]);
      }
 
+     a += b;
+
+     d *=b;
+
 
     
   }
