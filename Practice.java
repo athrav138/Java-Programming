@@ -8,13 +8,12 @@ public class Practice
 {
   public static void main(String[] args)
   {
-     Scanner sc = new Scanner (System.in);
-     int a,b;
+     Scanner sc = new Scanner (System.in);     int a,b;
 System.out.print("Enter a and b: ");
      a = sc.nextInt();
      b = sc.nextInt();
 
-/*    -------------Even and Oddd--------------
+     /*    -------------Even and Oddd--------------
      if(a%2==0)
      {
       System.out.println("Even");
