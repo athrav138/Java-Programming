@@ -11,5 +11,9 @@ public class String1
     int number = Integer.parseInt(s);
 
     System.out.println("Integer is: "+number);
+
+    String s1 = Integer.toString(number);
+
+    System.out.println("String is: "+s1);
   }
 }
