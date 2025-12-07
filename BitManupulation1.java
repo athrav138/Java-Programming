@@ -5,7 +5,6 @@ public class BitManupulation1
 
   public static void getBit(int n,int pos)
   {
-
     int bitmask = 1<<pos;
 
     if((bitmask & n)!=0)
@@ -21,7 +20,6 @@ public class BitManupulation1
 
   public static void setBit(int n,int pos)
   {
-
     int bitmask = 1<<pos;
 
     System.out.println("The "+pos+" position bit is set: "+(bitmask|n));
@@ -29,14 +27,25 @@ public class BitManupulation1
 
   public static void clearBit(int n,int pos)
   {
-
     int bitmask = 1<<pos;
 
+    System.out.println("The "+pos+" position bit is clear: "+(~bitmask & n));
+  }
 
-        System.out.println("The "+pos+" position bit is clear: "+(~bitmask & n));
+  public static void updateBit(int n,int pos,int newbit)
+  {
+    int bitmask = 1<<pos;
 
+    if(newbit == 1)
+    {
+    System.out.println("The "+pos+" position bit is set: "+(bitmask|n));
+    }
+    else 
+    System.out.println("The "+pos+" position bit is clear: "+(~bitmask & n));
 
   }
+
+
 
   public static void main(String[] args)
   {
@@ -47,7 +56,9 @@ public class BitManupulation1
 
     // setBit(10,2);
 
-    clearBit(10,1);
+    // clearBit(10,1);
+
+    updateBit(10,2,0); // 1010
     
 
   }
