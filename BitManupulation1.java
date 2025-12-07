@@ -24,9 +24,20 @@ public class BitManupulation1
 
     int bitmask = 1<<pos;
 
-    
     System.out.println("The "+pos+" position bit is set: "+(bitmask|n));
   }
+
+  public static void clearBit(int n,int pos)
+  {
+
+    int bitmask = 1<<pos;
+
+
+        System.out.println("The "+pos+" position bit is clear: "+(~bitmask & n));
+
+
+  }
+
   public static void main(String[] args)
   {
 
@@ -34,7 +45,9 @@ public class BitManupulation1
 
     // getBit(10,2);
 
-    setBit(10,2);
+    // setBit(10,2);
+
+    clearBit(10,1);
     
 
   }
