@@ -9,7 +9,7 @@ public class Usage
        Employee_1[] emp = new Employee_1[5];
         emp[0].display();
 
-        Student S1 = new Student(101,95.88f,"Atharv");
+        Student S1 = new Student();
         S1.display();
     }
 }

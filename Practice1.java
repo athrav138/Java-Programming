@@ -19,7 +19,7 @@ public class Practice1
         if (a<0)
         {
             System.out.println("Invalid Input");
-            return;
+            return -1;
         }
         if(a==0 || a==1)
         {
