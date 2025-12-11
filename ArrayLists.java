@@ -10,6 +10,7 @@ public class ArrayLists
     ArrayList<Integer> numbers = new ArrayList<Integer>();
     ArrayList<Float> Decimals = new ArrayList<Float>();
 
+    
 
 
     
