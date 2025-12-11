@@ -59,9 +59,9 @@ public class ArrayLists
         }
 
         // sorting
-        Collections.sort("\n"+umbers);
+        Collections.sort(numbers);
 
-        System.out.println(numbers);
+        System.out.println(" "+numbers);
         //Sorting strinng array list
         Collections.sort(names);
         System.out.println(names);
