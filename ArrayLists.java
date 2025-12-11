@@ -59,7 +59,7 @@ public class ArrayLists
         }
 
         // sorting
-        Collections.sort(numbers);
+        Collections.sort("\n"+umbers);
 
         System.out.println(numbers);
         //Sorting strinng array list
