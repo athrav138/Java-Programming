@@ -8,6 +8,8 @@ public class ArrayLists
     Scanner sc = new Scanner(System.in);
 
     ArrayList<Integer> numbers = new ArrayList<Integer>();
+    ArrayList<Float> Decimals = new ArrayList<Float>();
+
 
 
     
