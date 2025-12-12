@@ -6,6 +6,17 @@ interface Car
 
   void speedup(int n);
   void speeddown(int n);
+
+  private void pr()
+  {
+    System.out.println("HEllo Atharv");
+  }
+
+  default void print()
+  {
+      pr();
+    System.out.println("Hello World");
+  }
 }
 
 class Audi implements Car
@@ -23,7 +34,7 @@ class Audi implements Car
     speed -= n;
   } 
 
-  void display()
+  public void display()
   {
     System.out.println("Speed: "+speed);
   }
@@ -40,6 +51,7 @@ public class Interface1
     a1.display();
     a1.speeddown(3);
     a1.display();
+    a1.print();
     
   }
 }
