@@ -6,7 +6,7 @@ public class ExceptionHandling
     {
         int div;
         try
-        {
+        { s
             div = a / b;
             return div;
         }
