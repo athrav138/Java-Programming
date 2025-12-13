@@ -14,6 +14,6 @@ public class AWTExample {
         f.add(b);
 
         f.setSize(300, 200);
-        f.setVisible(true);
+        f.setVisible(false);
     }
 }
