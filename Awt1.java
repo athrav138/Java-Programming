@@ -27,12 +27,12 @@ public class Awt1
         f.add(tf1);
         f.add(b);
 
-    f.setLayout(new FlowLayout());
-        f.add(l2);
-        f.add(tf2);
-        f.add(l3);
-        f.add(tf3);
-        f.add(b);
+    f1.setLayout(new FlowLayout());
+        f1.add(l2);
+        f1.add(tf2);
+        f1.add(l3);
+        f1.add(tf3);
+        f1.add(b);
 
         f.setSize(300, 200);
         f.setVisible(true);
