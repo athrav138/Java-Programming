@@ -4,12 +4,19 @@ public class Awt1
 {
   public static void main(String[] args)
   {
-    Frame f = new Frame("HEllo World");
+    Frame f = new Frame("Student Info");
+    Frame f1 = new Frame("College Info");
 
     Label l = new Label("Enter full name: ");
-    TextField tf= new TextField(200);
-    Label l1 = new Label("Enter Phone: ");
-    TextField tf1 = new TextField(300);
+    TextField tf= new TextField(50);
+    Label l1 = new Label("Enter Adress: ");
+    TextField tf1 = new TextField(20);
+
+    Label l2 = new Label("Enter College name: ");
+    TextField tf2 = new TextField(50);
+    Label l3 = new Label ("Enter College adress: ");
+    TextField tf3 = new TextField(30);
+
 
     Button b = new Button("Submit");
 
@@ -20,8 +27,15 @@ public class Awt1
         f.add(tf1);
         f.add(b);
 
+    f.setLayout(new FlowLayout());
+        f.add(l2);
+        f.add(tf2);
+        f.add(l3);
+        f.add(tf3);
+        f.add(b);
+
         f.setSize(300, 200);
-        f.setVisible(false);
+        f.setVisible(true);
 
   }
 }
