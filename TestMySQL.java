@@ -1,19 +1,22 @@
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 public class TestMySQL {
     public static void main(String[] args) {
         try {
-            // Driver load
+            // Load MySQL JDBC Driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Connection
+            // Create connection
             Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/Library",
-                "Connection1",
-                "atharv8830"   // <-- put your MySQL password
+                "root",          // MySQL username
+                "atharv8830"       // <-- replace with your MySQL password
             );
 
             System.out.println("MySQL connected successfully!");
+
+            // Close connection
             con.close();
 
         } catch (Exception e) {
