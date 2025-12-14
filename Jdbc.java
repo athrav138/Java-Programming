@@ -1,5 +1,5 @@
 import java.sql;
-import java.Scanner;
+import java.util.Scanner;
 
 public class Jdbc
 {
