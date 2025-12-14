@@ -1,5 +1,6 @@
 import java.util.Scanner;
 //import java.sql.*;
+// JDBC is used for the connect the database to application
 
 public class Jdbc
 {
