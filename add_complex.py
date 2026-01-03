@@ -19,8 +19,8 @@ class add_complex:
 c1 =  add_complex(2,4)
 c2 =  add_complex(4,5)
 
-c3 = c1.add(c2)
-
+#c3 = c1.add(c2)
+c3 = c1 + c2
 c1.display()
 c2.display()
 c3.display()
