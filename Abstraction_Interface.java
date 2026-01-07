@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 interface Animal
 {
   int eyes = 2; // by default static and final
